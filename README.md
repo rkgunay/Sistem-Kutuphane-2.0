@@ -52,7 +52,7 @@ olan bir kullanıcı adını alabiliyorsunuz. src'den Öğrenci Ekleme veya Pers
 ve kullanıldığı yerleri inceleyebilirsiniz. 
 
 3.Editlenebilen Tablolar. Bu öğrenci tarafında sıkıntı yaratmıyor. Fakat personel veya yöneticinin, kitap veya öğrenci tablolarını editleyip o şekilde
-kitap ödüncü veya teslimi yapmasına izin verebiliyor. Örneğin kitap adetini tablodan editleyip ödünç verdiğinde kitap adetini arttırmadan ödünç verme
+kitap ödüncü veya teslimi yapmasına izin verebiliyor. Örneğin kitap adetini tablodan editleyip ödünç verdiğinde kitap adetini azaltmadan ödünç verme
 işlemini gerçekleştirebilir. isCellEditible Override edilerek sorun çözülebiliyormuş. 
 
 # Neler Daha İyi?
