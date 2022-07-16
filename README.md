@@ -43,25 +43,3 @@ Personel giriş yaptıktan sonra bu sayfaya yönlendirilir.  <br/>
 <img src="https://github.com/rkgunay/Sistem-Kutuphane-2.0/blob/main/ekranGoruntuleri/ogrenciAnaSayfa.png" width="600">  <br/> <br/>
 
 
-# Düzeltilmesi Gereken Hatalar ve Geliştirilebilecek Yerler
-
-1.Arayüzler Absolute Layout ile oluşturuldu. Kullanılan sisteme göre arayüz, daha küçük veya daha büyük gözükebiliyor.
-
-2.Normalde sistem aynı kullanıcı adına sahip öğrenci veya personel hesabı açmaya izin vermiyor. Fakat kullanıcı adınızı değiştirirken 
-olan bir kullanıcı adını alabiliyorsunuz. src'den Öğrenci Ekleme veya Personel Ekleme ile ilgili sayfalardan ...kadiKontrol fonksiyonlarını
-ve kullanıldığı yerleri inceleyebilirsiniz. 
-
-3.Editlenebilen Tablolar. Bu öğrenci tarafında sıkıntı yaratmıyor. Fakat personel veya yöneticinin, kitap veya öğrenci tablolarını editleyip o şekilde
-kitap ödüncü veya teslimi yapmasına izin verebiliyor. Örneğin kitap adetini tablodan editleyip ödünç verdiğinde kitap adetini azaltmadan ödünç verme
-işlemini gerçekleştirebilir. isCellEditible Override edilerek sorun çözülebiliyormuş. 
-
-# Neler Daha İyi?
-
-1.Önceki projem Otel Teta'ya göre daha **temiz** ve standartlara uygun bir kod yazmayı başardım. "jtxt_oda_no"(Otel Teta) VS. "jtxtKitapAd"(Sistem Kütüphane 2)  
-
-2.Birçok durumu hesaba katarak programdaki açık uçları en aza indirgemeye çalıştım. Kitap adedi kısmına sadece sayı girilebilmesi, tarih kısmı boş kaldığında
-uyarı vermesi gibi. 
-
-3.İlk versiyona göre daha çok seçenekler ve daha rahat kullanım. 
-
-4.Daha çok fonksiyon ile bir tık daha optimize olmuş bir sistem. filtre(), jtxtTemizle() gibi.  
